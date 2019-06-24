@@ -1,0 +1,78 @@
+@import "common";
+@import "animate.css";
+@import "fonts/iconfont.css";
+@import "antd-mobile.css";
+$base_font:20px;
+$base_color:#333;
+// 全局样式  golbal 
+html,
+body,
+#app,
+.box {
+    width: 100vw;
+    height: 100vh;
+}
+* { touch-action: pan-y; } 
+.h2 {
+    color: rgb(89, 63, 238);
+    font-size: 30px;
+}
+
+.cssbox {
+    width: 200px;
+    height: 200px;
+    font-size: 33px;
+    background: darkgoldenrod;
+    border: 1px solid red;
+    /*no*/
+}
+
+.cssbox2 {
+    width: 220px;
+    height: 220px;
+    font-size: 35px;
+    background-color: chartreuse;
+}
+
+.a {
+    font-size: 20px;
+    color: rgb(59, 236, 43);
+}
+
+.b {
+    font-size: 22px;
+    color: rgb(245, 7, 7)
+}
+
+.c {
+    font-size: 18px;
+    color: rgb(40, 208, 238)
+}
+
+.d {
+    font-size: 30px;
+    color: rgb(252, 55, 147)
+}
+
+.f {
+    font-size: 60px;
+    color: rgb(255, 102, 0);
+}
+
+.bouncelnDown {
+    animation: bouncelnDown 1s;
+}
+
+.e {
+    margin: 20px 10px;
+}
+
+.g {
+    background-color: rgb(104, 240, 133);
+    font-size: 28px;
+    color: rgb(239, 243, 9);
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
